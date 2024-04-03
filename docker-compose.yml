@@ -2,7 +2,7 @@ version: '3'
 
 services:
   db:
-    image: 'bitnami/mongodb:latest'
+    image: 'zcube/bitnami-compat-mongodb'
     ports:
       - 27017:27017
     restart: on-failure
