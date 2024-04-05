@@ -1,3 +1,4 @@
+from typing import List
 from uuid import UUID
 import pytest
 from store.core.exceptions import NotFoundException
@@ -30,14 +31,14 @@ async def test_usecases_get_should_not_found():
 
 
 @pytest.mark.usefixtures("products_inserted")
-async def test_usecases_query_should_return_sucess():
+async def test_usecases_query_should_return_success():
     result = await product_usecases.query()
 
-    assert isinstance(result, list)
+    assert isinstance(result, List)
     assert len(result) > 1
 
 
-async def test_usecases_update_should_return_sucess(product_up, product_inserted):
+async def test_usecases_update_should_return_success(product_up, product_inserted):
     product_up.price = "7.500"
     result = await product_usecases.update(id=product_inserted.id, body=product_up)
 
