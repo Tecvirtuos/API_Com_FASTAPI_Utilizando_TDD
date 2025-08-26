@@ -8,15 +8,15 @@ O **Test-Driven Development** (Desenvolvimento Orientado por Testes ou simplesme
 
 Em um ciclo de TDD, você escreve um teste que falhe (<span style="color: red;">Red</span>), implementa o código mínimo para fazê-lo passar (<span style="color: green;">Green</span>) e refatora o código para melhorar sua qualidade (<span style="color: blue;">Refactor</span>). O TDD oferece diversos benefícios, como maior qualidade do código, menos bugs, código mais modular e testável e maior confiança no código. Apesar de exigir um investimento inicial de tempo, o TDD pode resultar em software mais robusto, confiável e fácil de manter.
 
-### Projeto Store API
+### Projeto Store API:
 
 Com o objetivo de trazer conhecimentos sobre TDD e [Fast API](https://fastapi.tiangolo.com/), utilizaremos também o banco de dados [MongoDB](https://www.mongodb.com/docs/manual/), validações com o [Pydantic](https://docs.pydantic.dev/latest/) e testes com [Pytest](https://docs.pytest.org/en/8.0.x/).
 
-### Pré-requisitos
+### Pré-requisitos:
 
 Para este projeto utilizaremos também [Docker](https://docs.docker.com/engine/install/) e [Docker Compose](https://docs.docker.com/compose/install/). Para instalar, basta seguir as instruções presentes na documentação oficial.
 
-### Capítulos
+### Capítulos:
 
 [01. Criação de Ambiente](docs/content/01.md)
 
@@ -32,10 +32,10 @@ Para este projeto utilizaremos também [Docker](https://docs.docker.com/engine/i
 
 [07. Testes da Controller e Rotas](docs/content/07.md)
 
-### Conclusão
+### Conclusão:
 
 A adoção do TDD junto ao FastAPI oferece uma abordagem segura e eficiente para o desenvolvimento de APIs. Ao seguir os passos delineados neste artigo, os desenvolvedores podem criar APIs robustas e escaláveis com confiança desde a fase inicial do projeto.
 
-### Créditos
+### Créditos:
 
 Artigo baseado no projeto apresentado pela profa. [Nayanna Nara](https://www.linkedin.com/in/nayannanara/) (@nayannanara) para o curso [Criando Uma API Com FastAPI Utilizando TDD](https://web.dio.me/lab/tdd-com-python/learning/182318cf-adc7-40b2-b835-e5cf242b482e) da DIO. O repositório original pode ser visitado [aqui](https://github.com/digitalinnovationone/store_api).
